@@ -2,7 +2,6 @@ package com.momotaro.vaporeon.controller.itemdetail;
 
 import com.momotaro.vaporeon.constant.ErrorMessages;
 import com.momotaro.vaporeon.dto.core.BaseResponse;
-import org.springframework.http.HttpStatus;
 import org.springframework.util.StringUtils;
 import com.momotaro.vaporeon.dto.itemdetail.CreateNewItemRequest;
 import com.momotaro.vaporeon.service.itemdetail.ItemDetailService;
