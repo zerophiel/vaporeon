@@ -5,4 +5,5 @@ public interface ItemDetailControllerPath {
     String CREATE = "/create";
     String UPDATE = "/update";
     String DELETE = "/delete";
+    String READ = "/read";
 }

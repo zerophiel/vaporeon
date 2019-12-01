@@ -11,7 +11,7 @@ public class ListBaseResponse<T> extends BaseResponse {
     public ListBaseResponse() {
     }
 
-    public ListBaseResponse(String errorMessage, String errorCode, boolean success, String requestId,
+    public ListBaseResponse(String errorMessage, String errorCode, boolean success,
                             List<T> content, Metadata metadata) {
         super(errorMessage, errorCode, success);
         this.content = content;
