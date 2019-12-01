@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  db:
+    container_name: 'vaporeon_db'
+    image: postgres
+    restart: always
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: vaporeonAdmin
+      POSTGRES_PASSWORD: Rahasia007!@#
+      POSTGRES_DB: vaporeon
